@@ -1,11 +1,12 @@
 import './App.css'
+import OTP from './components/OTP'
 
 function App() {
-
   return (
-    <>
-     <h1>OTP Login</h1>
-    </>
+    <div className='container'>
+      <h1>OTP Component</h1>
+      <OTP size={6}/>
+    </div>
   )
 }
 
